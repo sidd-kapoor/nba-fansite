@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dunk Engine</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Dunk Engine</a></h1>
+						<!-- <nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">Generic</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">Log In</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav> -->
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Dunk Engine</h2>
+							<p>
+							Transform search queries into video.<br />
+							Regularly. Automatically.
+							</p>
+							<ul class="actions special">
+								<li><a href="http://www.dunkengine.com" target=_blank class="button primary">Try now</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Concept</h2>
+								<p>
+								Want to see Damian Lillard shoot 3-pointers? <b>Watch an NBA game.</b><br /><br />
+								Want to see Dame’s best threes from last night's game? <b>Check out ESPN.</b><br /><br />
+								Want to see all his threes longer than 35 ft? Watch a <b>YouTube Compilation.</b><br /><br /><br />
+								<i>But if you want to see <strong>all of Damian Lillard’s threes,</strong> in <strong>decreasing order of  <br />
+								distance</strong> in all games <strong>against the Thunder</strong> while being <strong>guarded by Paul George:</strong></i></strong>
+								<h3>Use Dunk Engine. </h3>
+								</p>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon solid fa-search major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon solid fa-basketball-ball major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon solid fa-video major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.png" alt="" /></div><div class="content">
+								<h2>Enter any search query</h2>
+								<p>As you type your query into the search bar, we will highlight and capture important search terms. </p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.png" alt="" /></div><div class="content">
+								<h2>Get fast results</h2>
+								<p>Quickly receive play information and metadata for the time slices you specified.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic03.png" alt="" /></div><div class="content">
+								<h2>Test your hunch with video</h2>
+								<p>View your results in our fluid video interface or download the compilation for future reference.</p>
+								<p>Automatically-indexed bookmarks allow you to quickly navigate through the video and rewatch specific clips.</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Prototype</h2>
+								<p> Upload this <a href="basic.csv" download>test file</a> on <a href="http://www.dunkengine.com" target=_blank>dunkengine.com</a> to see how Dunk Engine works.</p>
+								<p> We currently only support queries for <strong>specific time-slices</strong> of games via CSV upload for a <strong>select number of NBA games.</strong></p> 
+								
+								<p>The following features are under development:</p>
+
+								<p><strong>1) Aggregation of every NBA game that has aired since 1980.<br />
+								   2) Custom search for specific plays, players, distances, play types, and game situations.</strong></p>
+								
+								</p>
+								<p> As we are continuously updating our product to deliver peak performance, we would greatly appreciate your feedback <a href="#cta" class="more scrolly">below</a>.</p>
+								<p> Also check out our <b>FAQs</b>.</p>
+							</header>
+							<h2>FAQs</h2>
+							<ul class="features">
+								<li class="icon fa-paper-plane">
+									<h4>In what order do I put the values in the CSV query?</h4> 
+									<p>Please enter values in the following order, from left to right: </br>
+									&nbsp;&nbsp; - Date </br>
+									&nbsp;&nbsp; - Home team </br>
+									&nbsp;&nbsp; - Away team </br>
+									&nbsp;&nbsp; - Quarter </br>
+									&nbsp;&nbsp; - Game clock start time </br>
+									&nbsp;&nbsp; - Game clock end time </br></br>
+									Check <a href="#two" class="more scrolly">this</a> out for an example.
+									</p>
+								</li>
+								<li class="icon fa-paper-plane">
+									<h4>Do I need to include the header names in the CSV?</h4>
+									<p> No, you don't need to include headers such as <strong>Date</strong> or <strong>End Time.</strong> However, you can choose to include them as they may help you visualize the purpose of each column.</p>
+								</li>
+								<li class="icon fa-paper-plane">
+									<h4>What format should the date be in?</h4>
+									<p>You can enter date in any format. Our parser handles all common date formats and will let you know if the date entered is invalid.</p>
+								</li>
+								<li class="icon fa-paper-plane">
+									<h4>Do I need to enter team names in a particular format?</h4>
+									<p>Team names don't need to be acronyms as seen in the test file. For example, "POR" can be represented as "Blazers" as well as "Portland Trail Blazers".</p>
+								</li>
+								<li class="icon fa-paper-plane">
+									<h4>What values are allowed in the Quarter column?</h4>
+									<p>You can enter <b>“1”, “2”, “3”, </b> or <b>“4”</b> to refer to the first, second, third, and fourth quarters respectively. You can also enter <b>“OT”</b> to refer to overtime, <b>“2OT”</b> to refer to the second overtime, and so on.</p>
+								</li>
+								<li class="icon fa-paper-plane">
+									<h4>What format are the start and end times in?</h4>
+									<p> Game clock start and end time represent the time remaining in the specified quarter. They should be entered in <strong>mm:ss</strong> format (e.g. <strong>11:55</strong> or <strong>0:09).</strong></p>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Contact Us</h2>
+
+								<p>Email us at <a href="mailto:info@dunkengine.com" target=_blank>info@dunkengine.com</a> or fill out this feedback form.</p>
+							</header>
+							<ul class="actions stacked">
+								<li><a href="http://www.dunkengine.com" target=_blank class="button fit primary">Try Now</a></li>
+								<li><a href="https://forms.gle/8XSYj9ipt5tSrwx47" target=_blank class="button fit">Feedback Form</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="mailto:info@dunkengine.com" target=_blank class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Dunk Engine</li><li>Design: <a href="http://html5up.net" target=_blank>HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
